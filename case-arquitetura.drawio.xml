@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36">
   <diagram name="Page-1" id="enhhWX-R8psHuhPUG5sV">
-    <mxGraphModel dx="2570" dy="2037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3430" dy="2505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,9 +143,6 @@
           <mxGeometry relative="1" x="-0.6455" y="6" as="geometry">
             <mxPoint x="-66" y="-7" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="DRfS8Go-mJcTehUOUhbc-46" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Esse microserviço é responsável por&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. assim que o micro-serviço identifica que precisa solicitar baixa de estoque, ele pede pro GTW ESTOQUE inserir o pedido na base de status com STATUS NOVO.&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. Quando receber OK do registrar nota fiscal, pede para atualizar o produto com status NF_GERADA e de fato faz a baixa do produto no estoque&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="260" x="1011" y="870" as="geometry" />
         </mxCell>
         <mxCell id="DRfS8Go-mJcTehUOUhbc-58" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" value="SQS" vertex="1">
           <mxGeometry height="58" width="58" x="690" y="461" as="geometry" />
